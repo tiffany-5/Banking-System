@@ -1146,13 +1146,12 @@
               </packing>
             </child>
             <child type="overlay">
-              <object class="GtkLabel" id="admin_pass_receipt1">
+              <object class="GtkLabel" id="admin_type_receipt">
                 <property name="visible">True</property>
                 <property name="can-focus">False</property>
                 <property name="halign">start</property>
                 <property name="valign">start</property>
-                <property name="margin-left">480</property>
-                <property name="margin-start">480</property>
+                <property name="margin-start">345</property>
                 <property name="margin-top">380</property>
                 <attributes>
                   <attribute name="font-desc" value="Monospace Bold 12"/>
@@ -1161,6 +1160,73 @@
               </object>
               <packing>
                 <property name="index">2</property>
+              </packing>
+            </child>
+            <child type="overlay">
+              <object class="GtkLabel" id="user_acc_receipt">
+                <property name="visible">True</property>
+                <property name="can-focus">False</property>
+                <property name="halign">start</property>
+                <property name="valign">start</property>
+                <property name="margin-start">740</property>
+                <property name="margin-top">225</property>
+                <attributes>
+                  <attribute name="font-desc" value="Monospace Bold 12"/>
+                  <attribute name="foreground" value="#0000ffffd3d2"/>
+                </attributes>
+              </object>
+              <packing>
+                <property name="index">3</property>
+              </packing>
+            </child>
+            <child type="overlay">
+              <object class="GtkLabel" id="user_balance_receipt">
+                <property name="visible">True</property>
+                <property name="can-focus">False</property>
+                <property name="halign">start</property>
+                <property name="valign">start</property>
+                <property name="margin-start">740</property>
+                <property name="margin-top">305</property>
+                <attributes>
+                  <attribute name="font-desc" value="Monospace Bold 12"/>
+                  <attribute name="foreground" value="#0000ffffd3d2"/>
+                </attributes>
+              </object>
+              <packing>
+                <property name="index">4</property>
+              </packing>
+            </child>
+            <child type="overlay">
+              <object class="GtkLabel" id="admin_tempPass_receipt1">
+                <property name="visible">True</property>
+                <property name="can-focus">False</property>
+                <property name="halign">start</property>
+                <property name="valign">start</property>
+                <property name="margin-start">740</property>
+                <property name="margin-top">380</property>
+                <attributes>
+                  <attribute name="font-desc" value="Monospace Bold 12"/>
+                  <attribute name="foreground" value="#0000ffffd3d2"/>
+                </attributes>
+              </object>
+              <packing>
+                <property name="index">5</property>
+              </packing>
+            </child>
+            <child type="overlay">
+              <object class="GtkButton" id="user_confirm_button">
+                <property name="width-request">140</property>
+                <property name="height-request">0</property>
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="receives-default">True</property>
+                <property name="halign">center</property>
+                <property name="valign">center</property>
+                <property name="margin-top">320</property>
+                <property name="relief">none</property>
+              </object>
+              <packing>
+                <property name="index">6</property>
               </packing>
             </child>
           </object>
