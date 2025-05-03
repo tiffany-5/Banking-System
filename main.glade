@@ -4046,6 +4046,40 @@
           </packing>
         </child>
         <child>
+          <object class="GtkOverlay" id="moneyloading_screen2">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <child>
+              <object class="GtkImage">
+                <property name="visible">True</property>
+                <property name="can-focus">False</property>
+                <property name="pixbuf">pictures\bg.png</property>
+              </object>
+              <packing>
+                <property name="index">-1</property>
+              </packing>
+            </child>
+            <child type="overlay">
+              <object class="GtkLabel">
+                <property name="visible">True</property>
+                <property name="can-focus">False</property>
+                <property name="halign">center</property>
+                <property name="valign">center</property>
+                <property name="label" translatable="yes">Transaction Success!</property>
+                <attributes>
+                  <attribute name="font-desc" value="Monospace Bold 14"/>
+                  <attribute name="foreground" value="#fffff6f60000"/>
+                </attributes>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="name">page79</property>
+            <property name="title" translatable="yes">page79</property>
+            <property name="position">45</property>
+          </packing>
+        </child>
+        <child>
           <object class="GtkOverlay" id="user_transaction">
             <property name="visible">True</property>
             <property name="can-focus">False</property>
@@ -4161,7 +4195,7 @@
           <packing>
             <property name="name">page43</property>
             <property name="title" translatable="yes">page43</property>
-            <property name="position">45</property>
+            <property name="position">46</property>
           </packing>
         </child>
         <child>
@@ -4212,7 +4246,7 @@
           <packing>
             <property name="name">page44</property>
             <property name="title" translatable="yes">page44</property>
-            <property name="position">46</property>
+            <property name="position">47</property>
           </packing>
         </child>
         <child>
@@ -4303,7 +4337,7 @@
           <packing>
             <property name="name">page45</property>
             <property name="title" translatable="yes">page45</property>
-            <property name="position">47</property>
+            <property name="position">48</property>
           </packing>
         </child>
         <child>
@@ -4355,7 +4389,7 @@
           <packing>
             <property name="name">page47</property>
             <property name="title" translatable="yes">page47</property>
-            <property name="position">48</property>
+            <property name="position">49</property>
           </packing>
         </child>
         <child>
@@ -4491,7 +4525,7 @@
           <packing>
             <property name="name">page48</property>
             <property name="title" translatable="yes">page48</property>
-            <property name="position">49</property>
+            <property name="position">50</property>
           </packing>
         </child>
         <child>
@@ -4542,7 +4576,7 @@
           <packing>
             <property name="name">page49</property>
             <property name="title" translatable="yes">page49</property>
-            <property name="position">50</property>
+            <property name="position">51</property>
           </packing>
         </child>
         <child>
@@ -4692,7 +4726,7 @@
           <packing>
             <property name="name">page50</property>
             <property name="title" translatable="yes">page50</property>
-            <property name="position">51</property>
+            <property name="position">52</property>
           </packing>
         </child>
         <child>
@@ -4764,7 +4798,7 @@
           <packing>
             <property name="name">page51</property>
             <property name="title" translatable="yes">page51</property>
-            <property name="position">52</property>
+            <property name="position">53</property>
           </packing>
         </child>
         <child>
@@ -4818,7 +4852,7 @@
           <packing>
             <property name="name">page52</property>
             <property name="title" translatable="yes">page52</property>
-            <property name="position">53</property>
+            <property name="position">54</property>
           </packing>
         </child>
         <child>
@@ -5005,7 +5039,7 @@
           <packing>
             <property name="name">page53</property>
             <property name="title" translatable="yes">page53</property>
-            <property name="position">54</property>
+            <property name="position">55</property>
           </packing>
         </child>
         <child>
@@ -5056,7 +5090,7 @@
           <packing>
             <property name="name">page54</property>
             <property name="title" translatable="yes">page54</property>
-            <property name="position">55</property>
+            <property name="position">56</property>
           </packing>
         </child>
         <child>
@@ -5206,7 +5240,7 @@
           <packing>
             <property name="name">page55</property>
             <property name="title" translatable="yes">page55</property>
-            <property name="position">56</property>
+            <property name="position">57</property>
           </packing>
         </child>
         <child>
@@ -5294,7 +5328,7 @@
           <packing>
             <property name="name">page56</property>
             <property name="title" translatable="yes">page56</property>
-            <property name="position">57</property>
+            <property name="position">58</property>
           </packing>
         </child>
         <child>
@@ -5348,7 +5382,7 @@
           <packing>
             <property name="name">page57</property>
             <property name="title" translatable="yes">page57</property>
-            <property name="position">58</property>
+            <property name="position">59</property>
           </packing>
         </child>
         <child>
@@ -5400,7 +5434,7 @@
           <packing>
             <property name="name">page58</property>
             <property name="title" translatable="yes">page58</property>
-            <property name="position">59</property>
+            <property name="position">60</property>
           </packing>
         </child>
         <child>
@@ -5587,7 +5621,7 @@
           <packing>
             <property name="name">page59</property>
             <property name="title" translatable="yes">page59</property>
-            <property name="position">60</property>
+            <property name="position">61</property>
           </packing>
         </child>
         <child>
@@ -5657,7 +5691,7 @@
           <packing>
             <property name="name">page60</property>
             <property name="title" translatable="yes">page60</property>
-            <property name="position">61</property>
+            <property name="position">62</property>
           </packing>
         </child>
         <child>
@@ -5741,7 +5775,7 @@
           <packing>
             <property name="name">page62</property>
             <property name="title" translatable="yes">page62</property>
-            <property name="position">62</property>
+            <property name="position">63</property>
           </packing>
         </child>
         <child>
@@ -5793,7 +5827,7 @@
           <packing>
             <property name="name">page63</property>
             <property name="title" translatable="yes">page63</property>
-            <property name="position">63</property>
+            <property name="position">64</property>
           </packing>
         </child>
         <child>
@@ -5902,7 +5936,7 @@
           <packing>
             <property name="name">page64</property>
             <property name="title" translatable="yes">page64</property>
-            <property name="position">64</property>
+            <property name="position">65</property>
           </packing>
         </child>
         <child>
@@ -5972,7 +6006,7 @@
           <packing>
             <property name="name">page65</property>
             <property name="title" translatable="yes">page65</property>
-            <property name="position">65</property>
+            <property name="position">66</property>
           </packing>
         </child>
         <child>
@@ -6042,7 +6076,7 @@
           <packing>
             <property name="name">page66</property>
             <property name="title" translatable="yes">page66</property>
-            <property name="position">66</property>
+            <property name="position">67</property>
           </packing>
         </child>
         <child>
@@ -6111,7 +6145,7 @@
           <packing>
             <property name="name">page67</property>
             <property name="title" translatable="yes">page67</property>
-            <property name="position">67</property>
+            <property name="position">68</property>
           </packing>
         </child>
         <child>
@@ -6181,76 +6215,6 @@
           <packing>
             <property name="name">page69</property>
             <property name="title" translatable="yes">page69</property>
-            <property name="position">68</property>
-          </packing>
-        </child>
-        <child>
-          <object class="GtkStack" id="user_intloading_screen1">
-            <property name="visible">True</property>
-            <property name="can-focus">False</property>
-            <child>
-              <object class="GtkImage" id="user_money_loading16">
-                <property name="visible">True</property>
-                <property name="can-focus">False</property>
-                <property name="pixbuf">pictures\user_money_loading1.png</property>
-              </object>
-              <packing>
-                <property name="name">page0</property>
-                <property name="title" translatable="yes">page0</property>
-              </packing>
-            </child>
-            <child>
-              <object class="GtkImage" id="user_money_loading17">
-                <property name="visible">True</property>
-                <property name="can-focus">False</property>
-                <property name="pixbuf">pictures\user_money_loading2.png</property>
-              </object>
-              <packing>
-                <property name="name">page1</property>
-                <property name="title" translatable="yes">page1</property>
-                <property name="position">1</property>
-              </packing>
-            </child>
-            <child>
-              <object class="GtkImage" id="user_money_loading18">
-                <property name="visible">True</property>
-                <property name="can-focus">False</property>
-                <property name="pixbuf">pictures\user_money_loading3.png</property>
-              </object>
-              <packing>
-                <property name="name">page2</property>
-                <property name="title" translatable="yes">page2</property>
-                <property name="position">2</property>
-              </packing>
-            </child>
-            <child>
-              <object class="GtkImage" id="user_money_loading19">
-                <property name="visible">True</property>
-                <property name="can-focus">False</property>
-                <property name="pixbuf">pictures\user_money_loading4.png</property>
-              </object>
-              <packing>
-                <property name="name">page3</property>
-                <property name="title" translatable="yes">page3</property>
-                <property name="position">3</property>
-              </packing>
-            </child>
-            <child>
-              <object class="GtkImage" id="user_money_loading20">
-                <property name="visible">True</property>
-                <property name="can-focus">False</property>
-                <property name="pixbuf">pictures\user_money_loading5.png</property>
-              </object>
-              <packing>
-                <property name="name">page4</property>
-                <property name="title" translatable="yes">page4</property>
-                <property name="position">4</property>
-              </packing>
-            </child>
-          </object>
-          <packing>
-            <property name="name">page74</property>
-            <property name="title" translatable="yes">page74</property>
             <property name="position">69</property>
           </packing>
         </child>
@@ -6706,16 +6670,369 @@
           </packing>
         </child>
         <child>
-          <placeholder/>
+          <object class="GtkOverlay" id="time_deposit">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <child>
+              <object class="GtkImage">
+                <property name="visible">True</property>
+                <property name="can-focus">False</property>
+                <property name="pixbuf">pictures\time_deposit.png</property>
+              </object>
+              <packing>
+                <property name="index">-1</property>
+              </packing>
+            </child>
+            <child type="overlay">
+              <object class="GtkEntry" id="name_timedep">
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="halign">start</property>
+                <property name="valign">start</property>
+                <property name="margin-start">476</property>
+                <property name="margin-top">175</property>
+                <property name="max-length">30</property>
+                <property name="has-frame">False</property>
+                <property name="invisible-char">●</property>
+                <property name="max-width-chars">30</property>
+                <property name="input-purpose">name</property>
+              </object>
+            </child>
+            <child type="overlay">
+              <object class="GtkEntry" id="amount_timedep">
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="halign">start</property>
+                <property name="valign">start</property>
+                <property name="margin-start">470</property>
+                <property name="margin-top">255</property>
+                <property name="max-length">30</property>
+                <property name="has-frame">False</property>
+                <property name="invisible-char">●</property>
+                <property name="max-width-chars">30</property>
+                <property name="input-purpose">digits</property>
+              </object>
+              <packing>
+                <property name="index">1</property>
+              </packing>
+            </child>
+            <child type="overlay">
+              <object class="GtkEntry" id="rate_timedep">
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="halign">start</property>
+                <property name="valign">start</property>
+                <property name="margin-start">470</property>
+                <property name="margin-top">335</property>
+                <property name="max-length">30</property>
+                <property name="has-frame">False</property>
+                <property name="invisible-char">●</property>
+                <property name="max-width-chars">30</property>
+                <property name="input-purpose">digits</property>
+              </object>
+              <packing>
+                <property name="index">2</property>
+              </packing>
+            </child>
+            <child type="overlay">
+              <object class="GtkEntry" id="term_timedep">
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="halign">start</property>
+                <property name="valign">start</property>
+                <property name="margin-start">470</property>
+                <property name="margin-top">410</property>
+                <property name="max-length">30</property>
+                <property name="has-frame">False</property>
+                <property name="invisible-char">●</property>
+                <property name="max-width-chars">30</property>
+                <property name="input-purpose">digits</property>
+              </object>
+              <packing>
+                <property name="index">3</property>
+              </packing>
+            </child>
+            <child type="overlay">
+              <object class="GtkButton" id="confirm_timedep">
+                <property name="width-request">140</property>
+                <property name="height-request">0</property>
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="receives-default">True</property>
+                <property name="halign">start</property>
+                <property name="valign">start</property>
+                <property name="margin-start">440</property>
+                <property name="margin-top">485</property>
+                <property name="relief">none</property>
+              </object>
+              <packing>
+                <property name="index">4</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="name">page76</property>
+            <property name="title" translatable="yes">page76</property>
+            <property name="position">76</property>
+          </packing>
         </child>
         <child>
-          <placeholder/>
+          <object class="GtkStack" id="timedeploading_screen">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <child>
+              <object class="GtkImage" id="money_loading6">
+                <property name="visible">True</property>
+                <property name="can-focus">False</property>
+                <property name="pixbuf">pictures\money_loading1.png</property>
+              </object>
+              <packing>
+                <property name="name">page0</property>
+                <property name="title" translatable="yes">page0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkImage" id="money_loading7">
+                <property name="visible">True</property>
+                <property name="can-focus">False</property>
+                <property name="pixbuf">pictures\money_loading2.png</property>
+              </object>
+              <packing>
+                <property name="name">page1</property>
+                <property name="title" translatable="yes">page1</property>
+                <property name="position">1</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkImage" id="money_loading8">
+                <property name="visible">True</property>
+                <property name="can-focus">False</property>
+                <property name="pixbuf">pictures\money_loading3.png</property>
+              </object>
+              <packing>
+                <property name="name">page2</property>
+                <property name="title" translatable="yes">page2</property>
+                <property name="position">2</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkImage" id="money_loading9">
+                <property name="visible">True</property>
+                <property name="can-focus">False</property>
+                <property name="pixbuf">pictures\money_loading4.png</property>
+              </object>
+              <packing>
+                <property name="name">page3</property>
+                <property name="title" translatable="yes">page3</property>
+                <property name="position">3</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkImage" id="money_loading10">
+                <property name="visible">True</property>
+                <property name="can-focus">False</property>
+                <property name="pixbuf">pictures\money_loading5.png</property>
+              </object>
+              <packing>
+                <property name="name">page4</property>
+                <property name="title" translatable="yes">page4</property>
+                <property name="position">4</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="name">page77</property>
+            <property name="title" translatable="yes">page77</property>
+            <property name="position">77</property>
+          </packing>
         </child>
         <child>
-          <placeholder/>
+          <object class="GtkOverlay" id="timedeploading_screen2">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <child>
+              <object class="GtkImage">
+                <property name="visible">True</property>
+                <property name="can-focus">False</property>
+                <property name="pixbuf">pictures\bg.png</property>
+              </object>
+              <packing>
+                <property name="index">-1</property>
+              </packing>
+            </child>
+            <child type="overlay">
+              <object class="GtkLabel">
+                <property name="visible">True</property>
+                <property name="can-focus">False</property>
+                <property name="halign">center</property>
+                <property name="valign">center</property>
+                <property name="label" translatable="yes">TIme deposit calculated!</property>
+                <attributes>
+                  <attribute name="font-desc" value="Monospace Bold 14"/>
+                  <attribute name="foreground" value="#fffff6f60000"/>
+                </attributes>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="name">page78</property>
+            <property name="title" translatable="yes">page78</property>
+            <property name="position">78</property>
+          </packing>
         </child>
         <child>
-          <placeholder/>
+          <object class="GtkOverlay" id="time_deposit_summary">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <child>
+              <object class="GtkImage">
+                <property name="visible">True</property>
+                <property name="can-focus">False</property>
+                <property name="pixbuf">pictures\time_deposit_summary.png</property>
+              </object>
+              <packing>
+                <property name="index">-1</property>
+              </packing>
+            </child>
+            <child type="overlay">
+              <object class="GtkLabel" id="name_timdep_summary">
+                <property name="visible">True</property>
+                <property name="can-focus">False</property>
+                <property name="halign">start</property>
+                <property name="valign">start</property>
+                <property name="margin-start">575</property>
+                <property name="margin-top">175</property>
+                <attributes>
+                  <attribute name="font-desc" value="Monospace Bold 12"/>
+                  <attribute name="foreground" value="#ffffffffffff"/>
+                </attributes>
+              </object>
+            </child>
+            <child type="overlay">
+              <object class="GtkLabel" id="prin_timdep_summary">
+                <property name="visible">True</property>
+                <property name="can-focus">False</property>
+                <property name="halign">start</property>
+                <property name="valign">start</property>
+                <property name="margin-start">575</property>
+                <property name="margin-top">220</property>
+                <attributes>
+                  <attribute name="font-desc" value="Monospace Bold 12"/>
+                  <attribute name="foreground" value="#ffffffffffff"/>
+                </attributes>
+              </object>
+              <packing>
+                <property name="index">1</property>
+              </packing>
+            </child>
+            <child type="overlay">
+              <object class="GtkLabel" id="rate_timdep_summary">
+                <property name="visible">True</property>
+                <property name="can-focus">False</property>
+                <property name="halign">start</property>
+                <property name="valign">start</property>
+                <property name="margin-start">575</property>
+                <property name="margin-top">265</property>
+                <attributes>
+                  <attribute name="font-desc" value="Monospace Bold 12"/>
+                  <attribute name="foreground" value="#ffffffffffff"/>
+                </attributes>
+              </object>
+              <packing>
+                <property name="index">2</property>
+              </packing>
+            </child>
+            <child type="overlay">
+              <object class="GtkLabel" id="term_timdep_summary">
+                <property name="visible">True</property>
+                <property name="can-focus">False</property>
+                <property name="halign">start</property>
+                <property name="valign">start</property>
+                <property name="margin-start">575</property>
+                <property name="margin-top">315</property>
+                <attributes>
+                  <attribute name="font-desc" value="Monospace Bold 12"/>
+                  <attribute name="foreground" value="#ffffffffffff"/>
+                </attributes>
+              </object>
+              <packing>
+                <property name="index">3</property>
+              </packing>
+            </child>
+            <child type="overlay">
+              <object class="GtkLabel" id="maturity_timdep_summary">
+                <property name="visible">True</property>
+                <property name="can-focus">False</property>
+                <property name="halign">start</property>
+                <property name="valign">start</property>
+                <property name="margin-start">575</property>
+                <property name="margin-top">360</property>
+                <attributes>
+                  <attribute name="font-desc" value="Monospace Bold 12"/>
+                  <attribute name="foreground" value="#ffffffffffff"/>
+                </attributes>
+              </object>
+              <packing>
+                <property name="index">4</property>
+              </packing>
+            </child>
+            <child type="overlay">
+              <object class="GtkLabel" id="date_timdep_summary1">
+                <property name="visible">True</property>
+                <property name="can-focus">False</property>
+                <property name="halign">start</property>
+                <property name="valign">start</property>
+                <property name="margin-start">575</property>
+                <property name="margin-top">405</property>
+                <attributes>
+                  <attribute name="font-desc" value="Monospace Bold 12"/>
+                  <attribute name="foreground" value="#ffffffffffff"/>
+                </attributes>
+              </object>
+              <packing>
+                <property name="index">5</property>
+              </packing>
+            </child>
+            <child type="overlay">
+              <object class="GtkButton" id="back_timedep_button">
+                <property name="width-request">140</property>
+                <property name="height-request">0</property>
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="receives-default">True</property>
+                <property name="halign">start</property>
+                <property name="valign">start</property>
+                <property name="margin-start">365</property>
+                <property name="margin-top">455</property>
+                <property name="relief">none</property>
+              </object>
+              <packing>
+                <property name="index">6</property>
+              </packing>
+            </child>
+            <child type="overlay">
+              <object class="GtkButton" id="confirm_timedep_button">
+                <property name="width-request">140</property>
+                <property name="height-request">0</property>
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="receives-default">True</property>
+                <property name="halign">start</property>
+                <property name="valign">start</property>
+                <property name="margin-start">520</property>
+                <property name="margin-top">455</property>
+                <property name="relief">none</property>
+              </object>
+              <packing>
+                <property name="index">7</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="name">page74</property>
+            <property name="title" translatable="yes">page74</property>
+            <property name="position">79</property>
+          </packing>
         </child>
         <child>
           <placeholder/>
